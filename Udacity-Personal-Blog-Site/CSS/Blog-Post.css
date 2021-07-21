@@ -1,4 +1,4 @@
-@import "Blog-Style.css" ;
+
 
 .content-block-1 {
 	display: flex;
@@ -19,7 +19,7 @@
 	width:  40%;
 }
 
-.images {
+.image {
 	display:block;
 	width: 60%;
 	max-height: 100%;
