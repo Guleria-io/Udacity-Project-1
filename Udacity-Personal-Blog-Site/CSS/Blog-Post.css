@@ -20,8 +20,8 @@
 }
 
 .image {
-	display:block;
-	width: 60%;
+	display:inline;
+	width: 80%;
 	max-height: 100%;
 }
 .content-block-2 {

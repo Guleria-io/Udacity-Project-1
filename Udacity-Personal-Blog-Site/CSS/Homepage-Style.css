@@ -15,6 +15,7 @@
 	padding: 10px;
 	height: 385px;
 	overflow: hidden;
+	text-decoration-color: #ffffff;
 
 }
 .container-one:hover {
@@ -23,7 +24,7 @@
 }
 
 .first-post {
-	display: inline;
+	display: inline-block;
 	text-align:center;
 }
 .container-two {
@@ -41,6 +42,7 @@
 	padding: 10px;
 	height: 385px;
 	overflow: hidden;
+	text-decoration-color: #ffffff;
 
 }
 .container-two:hover {
@@ -48,15 +50,26 @@
 	box-shadow: 4px 4px 20px 0 rgba(175,68,96,100);
 }
 .second-post {
-	display:block ;
+	display: inline-block ;
 	text-align:center;
 }
 .images {
 	display: block;
-	max-height: 100%;
+	max-height: 90%;
 	max-width: 100%;
 	vertical-align: middle;
-	horizontal-align: middle;
+	horizontal-align: bottom;
 	overflow: hidden;
+
+}
+
+.caption {
+	display: inline-block;
+	width: 60%;
+	font-family:brandon-grotesque, sans-serif;
+	font-weight: 200;
+	font-size: 12pt;
+	color: #616161;	
+
 
 }
